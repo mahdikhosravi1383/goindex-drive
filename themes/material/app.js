@@ -48,11 +48,6 @@ function title(path){
 }
 
 // Nav
-function nav(path) {
-	var html = "";
-	html += `<a href="/" class="mdui-typo-headline folder">${document.siteName}</a>`;
-	var arr = path.trim('/').split('/');
-	var p = '/';
 
 // List files
 function list(path){
